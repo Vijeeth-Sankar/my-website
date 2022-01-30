@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.f696a4d2.css",
-    "main.js": "/my-website/static/js/main.eaf2b94c.js",
+    "main.css": "/my-website/static/css/main.7bc5bec3.css",
+    "main.js": "/my-website/static/js/main.7cf35898.js",
     "static/js/787.bbe01249.chunk.js": "/my-website/static/js/787.bbe01249.chunk.js",
     "static/media/mainimage.png": "/my-website/static/media/mainimage.0855e664506c85d49beb.png",
     "static/media/reacticon.svg": "/my-website/static/media/reacticon.9b977dda39c1f655820b024a64f21dbd.svg",
@@ -15,12 +15,12 @@
     "static/media/flutter.svg": "/my-website/static/media/flutter.626481fce944c8e52088e6695052a566.svg",
     "static/media/google.svg": "/my-website/static/media/google.af68f8a12e081f2c811c06d07d7f6a1a.svg",
     "static/media/css.svg": "/my-website/static/media/css.4d678abd5a77260f1594e0a8d94516de.svg",
-    "main.f696a4d2.css.map": "/my-website/static/css/main.f696a4d2.css.map",
-    "main.eaf2b94c.js.map": "/my-website/static/js/main.eaf2b94c.js.map",
+    "main.7bc5bec3.css.map": "/my-website/static/css/main.7bc5bec3.css.map",
+    "main.7cf35898.js.map": "/my-website/static/js/main.7cf35898.js.map",
     "787.bbe01249.chunk.js.map": "/my-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f696a4d2.css",
-    "static/js/main.eaf2b94c.js"
+    "static/css/main.7bc5bec3.css",
+    "static/js/main.7cf35898.js"
   ]
 }
