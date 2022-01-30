@@ -1,15 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 #mobile {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
-    #full {
-        background-color: rgb(231, 44, 44);
+div {
+    font-family: Pacifico;
+}
+
+#full {
+    background: linear-gradient(-45deg, #EF2929, #B82F6D, #8635AC, #762983);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    height: 900px;
+}
+
+#vij {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#nav-word {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#desktop {
+    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, .5);
+    backdrop-filter: blur(3px);
+}
+
+#main {
+    height: fit-content;
+    color: black;
+}
+
+#main-box {
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-radius: 30px;
+    position: relative;
+    height: 600px;
+    z-index: 2;
+}
+
+#me {
+    width: 292px;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+}
+
+#androidstudio {
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    width: 70px;
+    animation: android 10s infinite;
+}
+
+@keyframes android {
+    0% {
+        top: 15%;
+        left: 55%;
     }
+    50% {
+        top: 17%;
+        left: 45%;
+    }
+    100% {
+        top: 15%;
+        left: 55%;
+    }
+}
+
+#react {
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    width: 70px;
+    animation: reac 10s infinite;
+}
+
+@keyframes reac {
+    0% {
+        top: 12%;
+        left: 35%;
+    }
+    50% {
+        top: 14%;
+        left: 25%;
+    }
+    100% {
+        top: 12%;
+        left: 35%;
+    }
+}
+
+#bootstrap {
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    width: 70px;
+    animation: bootstra 10s infinite;
+}
+
+@keyframes bootstra {
+    0% {
+        top: 25%;
+        left: 28%;
+    }
+    50% {
+        top: 35%;
+        left: 25%;
+    }
+    100% {
+        top: 25%;
+        left: 28%;
+    }
+}
+
+#iconjs {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 70px;
+    animation: iconjs 10s infinite;
+}
+
+@keyframes iconjs {
+    0% {
+        top: 45%;
+        left: 15%;
+    }
+    50% {
+        top: 50%;
+        left: 30%;
+    }
+    100% {
+        top: 45%;
+        left: 15%;
+    }
+}
+
+#css {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 70px;
+    animation: css 10s infinite;
+}
+
+@keyframes css {
+    0% {
+        top: 60%;
+        left: 25%;
+    }
+    50% {
+        top: 70%;
+        left: 40%;
+    }
+    100% {
+        top: 60%;
+        left: 25%;
+    }
+}
+
+#git {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    width: 70px;
+    animation: git 10s infinite;
+}
+
+@keyframes git {
+    0% {
+        top: 75%;
+        left: 40%;
+    }
+    50% {
+        top: 75%;
+        left: 50%;
+    }
+    100% {
+        top: 75%;
+        left: 40%;
+    }
+}
+
+#google {
+    position: absolute;
+    top: 80%;
+    left: 62%;
+    width: 70px;
+    animation: google 10s infinite;
+}
+
+@keyframes google {
+    0% {
+        top: 80%;
+        left: 62%;
+    }
+    50% {
+        top: 70%;
+        left: 72%;
+    }
+    100% {
+        top: 80%;
+        left: 62%;
+    }
+}
+
+#vscode {
+    position: absolute;
+    top: 58%;
+    left: 70%;
+    width: 70px;
+    animation: vscode 10s infinite;
+}
+
+@keyframes vscode {
+    0% {
+        top: 58%;
+        left: 70%;
+    }
+    50% {
+        top: 48%;
+        left: 73%;
+    }
+    100% {
+        top: 58%;
+        left: 70%;
+    }
+}
+
+#html {
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    width: 70px;
+    animation: html 10s infinite;
+}
+
+@keyframes html {
+    0% {
+        top: 40%;
+        left: 75%;
+    }
+    50% {
+        top: 30%;
+        left: 65%;
+    }
+    100% {
+        top: 40%;
+        left: 75%;
+    }
+}
+
+#flutter {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    width: 70px;
+    animation: flutter 10s infinite;
+}
+
+@keyframes flutter {
+    0% {
+        top: 30%;
+        left: 65%;
+    }
+    50% {
+        top: 20%;
+        left: 55%;
+    }
+    100% {
+        top: 30%;
+        left: 65%;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* mobile view */
+
+
+/* mobile view */
+
+
+/* mobile view */
+
+
+/* mobile view */
+
+
+/* mobile view */
+
+
+/* mobile view */
+
+
+/* mobile view */
+
+
+/* mobile view */
+
+
+/* mobile view */
+
+
+/* mobile view */
+
+
+/* mobile view */
+
+@media only screen and (max-width: 900px) {
     #desktop {
         display: none;
     }
     #mobile {
         display: contents;
+        box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, .5);
+        backdrop-filter: blur(3px);
+        border-bottom: 3px solid white;
+    }
+    #offcanvasNavbar {
+        background: linear-gradient(green, rgb(27, 165, 89), blue);
+        width: 300px;
+    }
+    #main-box {
+        height: 300px;
+        width: 100%;
+    }
+    #nav-word {
+        color: black;
+    }
+    #me {
+        width: 150px;
+        position: absolute;
+        left: 30%;
+        top: 25%;
+    }
+    #androidstudio {
+        width: 40px;
+        top: 15%;
+        left: 55%;
+    }
+    #react {
+        width: 40px;
+        top: 13%;
+        left: 30%;
+    }
+    #bootstrap {
+        width: 40px;
+        top: 27%;
+        left: 20%;
+    }
+    #iconjs {
+        width: 40px;
+        top: 42%;
+        left: 10%;
+    }
+    #css {
+        width: 40px;
+        top: 65%;
+        left: 16%;
+    }
+    #git {
+        width: 40px;
+        top: 75%;
+        left: 40%;
+    }
+    #google {
+        width: 40px;
+        top: 80%;
+        left: 70%;
+    }
+    #vscode {
+        width: 40px;
+        top: 65%;
+        left: 80%;
+    }
+    #html {
+        width: 40px;
+        top: 45%;
+        left: 85%;
+    }
+    #flutter {
+        width: 40px;
+        top: 30%;
+        left: 70%;
+    }
+}
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+
+/* tablet view */
+
+@media only screen and (max-width: 990px) and (min-width: 426px) {
+    #colla {
+        display: none;
+    }
+    #main-box {
+        height: 300px;
+        width: 100%;
+    }
+    #me {
+        width: 150px;
+        position: absolute;
+        left: 40%;
+        top: 25%;
+    }
+    #androidstudio {
+        width: 40px;
+        top: 15%;
+        left: 55%;
+    }
+    #react {
+        width: 40px;
+        top: 13%;
+        left: 38%;
+    }
+    #bootstrap {
+        width: 40px;
+        top: 27%;
+        left: 30%;
+    }
+    #iconjs {
+        width: 40px;
+        top: 42%;
+        left: 20%;
+    }
+    #css {
+        width: 40px;
+        top: 65%;
+        left: 26%;
+    }
+    #git {
+        width: 40px;
+        top: 75%;
+        left: 50%;
+    }
+    #google {
+        width: 40px;
+        top: 80%;
+        left: 65%;
+    }
+    #vscode {
+        width: 40px;
+        top: 65%;
+        left: 75%;
+    }
+    #html {
+        width: 40px;
+        top: 45%;
+        left: 80%;
+    }
+    #flutter {
+        width: 40px;
+        top: 30%;
+        left: 70%;
     }
 }
