@@ -1,53 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-div {
-    font-family: Pacifico;
+#mobile {
+    display: none;
 }
 
-#full {
-    background: linear-gradient(-45deg, #EF2929, #B82F6D, #8635AC, #762983);
-    background-size: 400% 400%;
-    animation: gradient 5s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
+@media only screen and (max-width: 600px) {
+    #full {
+        background-color: rgb(231, 44, 44);
     }
-    50% {
-        background-position: 100% 50%;
+    #desktop {
+        display: none;
     }
-    100% {
-        background-position: 0% 50%;
+    #mobile {
+        display: contents;
     }
-}
-
-#navbar {
-    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, .5);
-    backdrop-filter: blur(3px);
-}
-
-#backs {
-    position: absolute;
-    width: 94%;
-    height: 800px;
-    background: rgb(255, 235, 235);
-    border-radius: 10px;
-}
-
-#vij {
-    font-size: 30px;
-    margin-left: 30px;
-}
-
-#colla {
-    font-size: 30px;
-}
-
-#basic-navbar-nav {
-    font-size: 19px;
-}
-
-#nav-word {
-    padding-left: 40px;
-    color: black;
 }
