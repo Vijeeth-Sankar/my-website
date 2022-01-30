@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Navbar, Container, Nav,Offcanvas} from 'react-bootstrap';
+import {Navbar, Container, Nav,Offcanvas,Row} from 'react-bootstrap';
 import './Frist.css';
 import androidstudio from './image/androidstudio.svg';
 import react from './image/reacticon.svg';
@@ -57,18 +57,23 @@ export default class First extends Component {
         </Navbar>
         <Container fluid='true' id='main'>
         <Container sm="true" id='main-box'>
-                <img id='me' src={require('./image/mainimage.png')} alt="" />
-                <img id='androidstudio' src={androidstudio} alt="" />
-                <img id='react' src={react} alt="" />
-                <img id='bootstrap' src={bootstrap} alt="" />
-                <img id='iconjs' src={iconjs} alt="" />
-                <img id='css' src={css} alt="" />
-                <img id='git' src={git} alt="" />
-                <img id='google' src={google} alt="" />
-                <img id='vscode' src={vscode} alt="" />
-                <img id='html' src={html} alt="" />
-                <img id='flutter' src={flutter} alt="" />
-              </Container>
+            <img id='me' src={require('./image/mainimage.png')} alt="" />
+            <img id='androidstudio' src={androidstudio} alt="" />
+            <img id='react' src={react} alt="" />
+            <img id='bootstrap' src={bootstrap} alt="" />
+            <img id='iconjs' src={iconjs} alt="" />
+            <img id='css' src={css} alt="" />
+            <img id='git' src={git} alt="" />
+            <img id='google' src={google} alt="" />
+            <img id='vscode' src={vscode} alt="" />
+            <img id='html' src={html} alt="" />
+            <img id='flutter' src={flutter} alt="" />
+            </Container>
+            <Container sm='true' id='vijeeth'>
+                <Row id='name'>
+                    I'm Vijeeth
+                </Row>
+            </Container>
         </Container>
         </div>
         </>
