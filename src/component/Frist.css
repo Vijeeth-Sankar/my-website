@@ -12,6 +12,7 @@ div {
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
     height: fit-content;
+    overflow-x: hidden;
 }
 
 #vij {
