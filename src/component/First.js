@@ -75,7 +75,7 @@ export default class First extends Component {
                 <Row id='name'>
                     I'm Vijeeth
                 </Row>
-                <a href="./Social.js">Login with Google</a>
+                <a href="./Social">Login with Google</a>
             </Container>
         </Container>
         
