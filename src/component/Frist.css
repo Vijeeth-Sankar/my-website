@@ -11,7 +11,7 @@ div {
     background: linear-gradient(-45deg, #EF2929, #B82F6D, #8635AC, #762983);
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
-    height: 900px;
+    height: fit-content;
 }
 
 #vij {
@@ -306,6 +306,307 @@ div {
     z-index: 1;
 }
 
+#let a {
+    width: 200px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    cursor: url('./image/f.png'), auto;
+}
+
+#let {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+#ser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 120px;
+}
+
+#line-one {
+    position: absolute;
+    border-left: 3px solid #000000;
+    width: 1cm;
+    height: 120px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+
+#Service {
+    margin-top: 50px;
+}
+
+#Service #most {
+    background-color: transparent;
+}
+
+#Service #devs {
+    background-color: transparent;
+}
+
+#cre {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+#int {
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+}
+
+#sa {
+    width: 350px;
+}
+
+#most-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#webs {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.288);
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: ease-in;
+}
+
+#webs:hover {
+    transition-duration: .3s;
+    box-shadow: 10px 5px 10px rgba(255, 255, 255, 0.719), -10px -5px 10px rgba(170, 16, 49, 0.747);
+}
+
+#webs p {
+    margin-left: 40px;
+}
+
+#line-two {
+    background-color: transparent;
+    width: 250px;
+    height: 100px;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-radius: 1%;
+}
+
+#dot {
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    margin-top: 100px;
+    background-color: transparent;
+    border-left: 2px solid #000000;
+    color: transparent;
+}
+
+#secont-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 120px;
+}
+
+#secont-dotn {
+    position: absolute;
+    border-left: 3px solid transparent;
+    width: 1cm;
+    height: 120px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+
+#projects img {
+    border-radius: 57px;
+    padding: 20px;
+}
+
+#see {
+    font-size: 20px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+#see a {
+    text-decoration: none;
+    color: black;
+}
+
+#pro {
+    border-bottom: 2px solid black;
+    transition: ease-in;
+    transition-duration: 1s;
+    width: 200px;
+}
+
+#pro:hover {
+    background-color: rgb(216, 216, 216);
+    border-radius: 30px;
+}
+
+#wel {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+#abeme {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+#me-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#me-img img {
+    width: 300px;
+}
+
+#web-one {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.288);
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: ease-in;
+}
+
+#web-one h3 {
+    color: rgba(0, 112, 156, 0.747);
+}
+
+#abeme #web-one:hover {
+    transition-duration: .3s;
+    box-shadow: 10px 5px 10px rgba(218, 218, 218, 0.719), -10px -5px 10px rgba(0, 112, 156, 0.747);
+}
+
+#web-two {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.288);
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: ease-in;
+}
+
+#web-two h3 {
+    color: rgba(197, 9, 9, 0.747);
+}
+
+#abeme #web-two:hover {
+    transition-duration: .3s;
+    box-shadow: 10px 5px 10px rgba(218, 218, 218, 0.719), -10px -5px 10px rgba(197, 9, 9, 0.747);
+}
+
+#web-three {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.288);
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: ease-in;
+}
+
+#web-three h3 {
+    color: rgba(71, 167, 7, 0.747);
+}
+
+#abeme #web-three:hover {
+    transition-duration: .3s;
+    box-shadow: 10px 5px 10px rgba(218, 218, 218, 0.719), -10px -5px 10px rgba(71, 167, 7, 0.747);
+}
+
+#web-four {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.288);
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: ease-in;
+}
+
+#web-four h3 {
+    color: rgba(240, 15, 210, 0.747);
+}
+
+#abeme #web-four:hover {
+    transition-duration: .3s;
+    box-shadow: 10px 5px 10px rgba(218, 218, 218, 0.719), -10px -5px 10px rgba(240, 15, 210, 0.747);
+}
+
+#contact #wel {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#contact #wel a {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgba(212, 36, 168, 0.603), transparent);
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom: 3px solid white;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    cursor: url('./image/f.png'), auto;
+}
+
+#feee {
+    border-top: 3px solid black;
+    padding-bottom: 20px;
+}
+
+#lins {
+    display: inline;
+    justify-content: center;
+}
+
+#lins a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
 
 /* mobile view */
 
@@ -416,6 +717,43 @@ div {
         top: 30%;
         left: 70%;
     }
+    #sa {
+        width: 250px;
+    }
+    #line-two {
+        display: none;
+    }
+    #line-three {
+        display: flex;
+        justify-content: center;
+    }
+    #secont-line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 120px;
+    }
+    #secont-dotn {
+        position: absolute;
+        border-left: 3px solid black;
+        width: 1cm;
+        height: 120px;
+        margin-left: 60px;
+        border-radius: 3px;
+    }
+    #projects {
+        display: inline;
+    }
+    #abeme {
+        margin-left: 0px;
+    }
+    #abeme #web-three {
+        margin-top: -20px;
+    }
+    #backs {
+        height: 500px;
+    }
 }
 
 
@@ -520,5 +858,53 @@ div {
         width: 40px;
         top: 30%;
         left: 70%;
+    }
+    #line-two {
+        display: none;
+    }
+    #secont-line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 120px;
+    }
+    #secont-dotn {
+        position: absolute;
+        border-left: 3px solid black;
+        width: 1cm;
+        height: 120px;
+        margin-left: 30px;
+        border-radius: 3px;
+        margin-left: 400px;
+    }
+    #abeme {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 0px;
+    }
+    #backs {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 400px) {
+    #secont-dotn {
+        margin-left: 60px;
+    }
+    #abeme {
+        margin-left: 0px;
+    }
+    #aobut {
+        display: inline;
+    }
+    #abeme #web-three {
+        margin-top: -20px;
+    }
+}
+
+@media only screen and (max-width: 346px) and (min-width: 200px) {
+    #lins {
+        font-size: 12px;
     }
 }
