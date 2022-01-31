@@ -79,8 +79,7 @@ export default class First extends Component {
         </Container>
         </Navbar>
         <Container fluid='true' id='main'>
-        <Container fluid='true' id='backs'>
-            </Container>
+        
         <Container sm="true" id='main-box'>
             <img id='me' src={require('./image/mainimage.png')} alt="" />
             <img id='androidstudio' src={androidstudio} alt="" />
