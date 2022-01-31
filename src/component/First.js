@@ -16,6 +16,10 @@ import clock from './image/clock.jpg';
 import website from './image/website.jpg';
 import VanillaTilt from 'vanilla-tilt';
 import me from './image/me.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 function Tilt(props) {
@@ -36,7 +40,7 @@ export default class First extends Component {
     return (
         <>
         <div id='full'>
-        <Navbar expand="lg" id='desktop' sticky="top" >
+        <Navbar expand="lg" id='desktop' fixed="top">
         <Container>
             <Navbar.Brand id='vij' href="#home">Vij</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -51,7 +55,7 @@ export default class First extends Component {
             <Navbar.Brand className="ms-auto" href="#contact">Collaboration</Navbar.Brand>
         </Container>
         </Navbar>
-        <Navbar id='mobile' expand={false} class="shadow p-3 mb-5 bg-white rounded" sticky="top">
+        <Navbar id='mobile' expand={false} class="shadow p-3 mb-5 bg-white rounded" fixed="top">
         <Container fluid>
             <Navbar.Brand id='vij' href="#">Vij</Navbar.Brand>
             <Navbar.Toggle aria-controls="offcanvasNavbar" />
@@ -75,6 +79,8 @@ export default class First extends Component {
         </Container>
         </Navbar>
         <Container fluid='true' id='main'>
+        <Container fluid='true' id='backs'>
+            </Container>
         <Container sm="true" id='main-box'>
             <img id='me' src={require('./image/mainimage.png')} alt="" />
             <img id='androidstudio' src={androidstudio} alt="" />
@@ -88,8 +94,8 @@ export default class First extends Component {
             <img id='html' src={html} alt="" />
             <img id='flutter' src={flutter} alt="" />
             </Container>
-            <Container sm='true' id='vijeeth'>
-                <Row id='name'>
+            <Container sm='true' id='vijeeth' data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500">
+                <Row id='name' >
                     I'm Vijeeth
                 </Row>
                 <Row id='let'>
@@ -98,7 +104,7 @@ export default class First extends Component {
                 <Row id='line'>
                   <div id='line-one'></div>
                 </Row>
-                <Row id='ser'>
+                <Row id='ser' >
                 Service
                 </Row>
             </Container>
@@ -106,7 +112,7 @@ export default class First extends Component {
               <Row xs={1} md={2}  id='Service'>
                 {/* most */}
                 {/* most */}
-                <Col id='most'>
+                <Col id='most' data-aos="fade-right">
                   <Row id='cre'>
                   The  most creative
                     <Row id='int'>
@@ -118,7 +124,7 @@ export default class First extends Component {
                   </Row>
                 </Col>
                 {/* most */}
-                <Col id='devs'>
+                <Col id='devs' data-aos="fade-left">
                   {/* devs */}
                   {/* devs */}
                   <Row id='webs'>
@@ -142,22 +148,22 @@ export default class First extends Component {
               </Row>
               </Container>
               <Container>
-              <Row id='ser'>
+              <Row id='ser' data-aos="fade-up">
                 Project
                 </Row>
                 <Row id='projects'>
-                <Col>
+                <Col data-aos="fade-right">
                 <a href="https://github.com/Vijeeth143/clock-app">
                 <Tilt><Row><img  src={clock} alt="" /></Row></Tilt>
                 </a>
                   
                 </Col>
-                <Col>
+                <Col data-aos="fade-left">
                 <a href="https://vijeeth143.github.io/updateweb/">
                 <Tilt><Row><img src={website} alt="" /></Row></Tilt>
                 </a>
                 </Col>
-                <Row id='see'>
+                <Row id='see' data-aos="fade-right">
                   <a href="https://github.com/Vijeeth143">
                   <div id='pro'>See More Projects</div>
                   </a>
@@ -165,20 +171,20 @@ export default class First extends Component {
                 </Row>
               </Container>
               <Container>
-              <Row id='line'>
+              <Row id='line' data-aos="fade-up">
                   <div id='line-one'></div>
                 </Row>
-              <Row id='ser'>
+              <Row id='ser' data-aos="fade-up">
                 About me
                 </Row>
-                <Row id='wel'>
+                <Row id='wel' data-aos="fade-up">
                 Welcome to Vijeeth World.
                 </Row>
                 <Row id='aobut'>
-                <Col id='me-img'>
+                <Col id='me-img' data-aos="fade-up">
                   <img src={me} alt="" />
                   </Col>
-                  <Col id='abeme'>
+                  <Col id='abeme' data-aos="fade-right">
                   <Row id='web-one'>
                     <h3>Education</h3>
                     <p>Non-Certificated as a front-end developer 
@@ -193,7 +199,7 @@ export default class First extends Component {
                     </p>
                   </Row>
                   </Col>
-                  <Col id='abeme'>
+                  <Col id='abeme' >
                   <Row id='web-three'>
                     <h3>Movies</h3>
                     <p>Marvels movie and Comics thats give 
@@ -209,13 +215,13 @@ export default class First extends Component {
                 </Row>
               </Container>
               <Container id='contact'>
-              <Row id='line'>
+              <Row id='line' data-aos="fade-up">
                   <div id='line-one'></div>
                 </Row>
-              <Row id='ser'>
+              <Row id='ser' data-aos="fade-up">
               Let's Work together.
                 </Row>
-                <Row id='wel'>
+                <Row id='wel' data-aos="fade-up">
                 <a href="https://linktr.ee/Vijeeth_Sankar">Contact me</a>
                 </Row>
               </Container>
