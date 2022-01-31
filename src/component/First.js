@@ -12,6 +12,8 @@ import vscode from './image/vscode.svg';
 import html from './image/html.svg';
 import flutter from './image/flutter.svg';
 
+
+
 export default class First extends Component {
   render() {
     return (
@@ -73,8 +75,10 @@ export default class First extends Component {
                 <Row id='name'>
                     I'm Vijeeth
                 </Row>
+                <a href="./Social.js">Login with Google</a>
             </Container>
         </Container>
+        
         </div>
         </>
     );
