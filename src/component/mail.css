@@ -1,0 +1,25 @@
+#mes {
+    background-color: transparent;
+}
+
+#boxs {
+    margin-top: 20px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 5px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    width: 100%;
+    font-size: 28px;
+}
+
+#direct {
+    background-color: #2D1E83;
+    border-radius: 50px;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+}

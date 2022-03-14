@@ -17,6 +17,7 @@ import website from './image/website.jpg';
 import VanillaTilt from 'vanilla-tilt';
 import me from './image/me.png';
 import AOS from 'aos';
+import Contactus from './email';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
@@ -223,6 +224,9 @@ export default class First extends Component {
                 <Row id='wel' data-aos="fade-up">
                 <a href="https://linktr.ee/Vijeeth_Sankar">Contact me</a>
                 </Row>
+              </Container>
+              <Container>
+                <Contactus/>
               </Container>
               <Container>
                 <Row id="feee">
