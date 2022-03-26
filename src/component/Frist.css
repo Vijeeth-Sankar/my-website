@@ -338,7 +338,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #line {
@@ -660,7 +660,7 @@ div {
         border-bottom: 3px solid white;
     }
     #offcanvasNavbar {
-        background: linear-gradient(green, rgb(27, 165, 89), blue);
+        background: white;
         width: 300px;
     }
     #main-box {
@@ -915,5 +915,8 @@ div {
 @media only screen and (max-width: 346px) and (min-width: 200px) {
     #lins {
         font-size: 12px;
+    }
+    #contact #ser {
+        font-size: 35px;
     }
 }

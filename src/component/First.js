@@ -19,6 +19,7 @@ import me from './image/me.png';
 import AOS from 'aos';
 import Contactus from './email';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { Fcontact } from './Fcontact';
 // ..
 AOS.init();
 
@@ -43,7 +44,7 @@ export default class First extends Component {
         <div id='full'>
         <Navbar expand="lg" id='desktop' fixed="top">
         <Container>
-            <Navbar.Brand id='vij' href="#home">Vij</Navbar.Brand>
+            <Navbar.Brand id='vij' href="#main">Vij</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
@@ -56,7 +57,7 @@ export default class First extends Component {
             <Navbar.Brand className="ms-auto" href="#contact">Collaboration</Navbar.Brand>
         </Container>
         </Navbar>
-        <Navbar id='mobile' expand={false} class="shadow p-3 mb-5 bg-white rounded" fixed="top">
+        <Navbar id='mobile' expand={false} className="shadow p-3 mb-5 bg-white rounded" fixed="top">
         <Container fluid>
             <Navbar.Brand id='vij' href="#">Vij</Navbar.Brand>
             <Navbar.Toggle aria-controls="offcanvasNavbar" />
@@ -226,7 +227,8 @@ export default class First extends Component {
                 </Row>
               </Container>
               <Container>
-                <Contactus/>
+                {/* <Contactus/> */}
+                <Fcontact/>
               </Container>
               <Container>
                 <Row id="feee">

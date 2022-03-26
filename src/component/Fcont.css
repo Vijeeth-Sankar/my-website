@@ -1,0 +1,28 @@
+#form {
+    background-color: transparent;
+    margin-top: -5vh;
+}
+
+#f-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#ff {
+    width: 26rem;
+    background-color: transparent;
+}
+
+#in {
+    margin-top: 10px;
+    padding-top: 20px;
+    border-color: transparent;
+    color: black;
+    border-radius: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+}
